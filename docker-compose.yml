@@ -10,10 +10,19 @@ services:
       - ./frontend:/usr/local/src/app
     environment:
       NUXT_HOST: 0.0.0.0
+      FIRESTORE_EMULATOR_HOST: localhost:8080
 
   backend:
     build:
       context: backend
     ports:
       - "1323:1323"
+    environment:
+      FIRESTORE_EMULATOR_HOST: firestore:8080
+
+  firestore:
+    build:
+      context: firestore
+    ports:
+      - "8080:8080"
 
