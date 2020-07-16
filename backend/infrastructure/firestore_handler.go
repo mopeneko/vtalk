@@ -5,12 +5,17 @@ import (
 	"context"
 )
 
+var ctx context.Context
+
+func init() {
+	ctx = context.Background()
+}
+
 type FirestoreHandler struct {
 	conn *firestore.Client
 }
 
 func NewFirestoreHandler(projectID string) (*FirestoreHandler, error) {
-	ctx := context.Background()
 	client, err := firestore.NewClient(ctx, projectID)
 	if err != nil {
 		return nil, err
