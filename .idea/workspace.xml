@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cf0ea4e8-ba45-4a3b-86ee-1b28385dcd55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/backend/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/backend/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +57,9 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -60,18 +85,34 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="2286" y="352" width="224" height="314" key="#File_Watchers" timestamp="1594896639818">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2286" y="352" width="224" height="314" key="#File_Watchers/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594896639818" />
     <state x="2673" y="352" width="404" height="315" key="#Go_Modules" timestamp="1594864346812">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2673" y="352" width="404" height="315" key="#Go_Modules/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594864346812" />
-    <state x="2208" y="281" width="658" height="423" key="EditFileWatcherDialog" timestamp="1594896139947">
+    <state x="2204" y="249" width="658" height="423" key="EditFileWatcherDialog" timestamp="1594896505589">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2208" y="281" width="658" height="423" key="EditFileWatcherDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594896139947" />
+    <state x="2204" y="249" width="658" height="423" key="EditFileWatcherDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594896505589" />
     <state width="914" height="287" key="GridCell.Tab.0.bottom" timestamp="1594895979825">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -88,9 +129,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594895979824" />
-    <state x="2046" y="150" key="SettingsEditor" timestamp="1594896141092">
+    <state x="2044" y="134" key="SettingsEditor" timestamp="1594896509137">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2046" y="150" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594896141092" />
+    <state x="2044" y="134" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594896509137" />
   </component>
 </project>
