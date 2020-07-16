@@ -26,8 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf0ea4e8-ba45-4a3b-86ee-1b28385dcd55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/infrastructure/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/infrastructure/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="go build github.com/mopeneko/vtalk/backend" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -129,9 +129,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594895979824" />
-    <state x="2044" y="134" key="SettingsEditor" timestamp="1594896509137">
+    <state x="2042" y="118" key="SettingsEditor" timestamp="1594910296964">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2044" y="134" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594896509137" />
+    <state x="2042" y="118" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594910296964" />
   </component>
 </project>

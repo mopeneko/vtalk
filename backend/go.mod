@@ -3,7 +3,7 @@ module github.com/mopeneko/vtalk/backend
 go 1.14
 
 require (
-	cloud.google.com/go/firestore v1.2.0 // indirect
+	cloud.google.com/go/firestore v1.2.0
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/labstack/echo v3.3.10+incompatible // indirect
 	github.com/labstack/echo/v4 v4.1.16
