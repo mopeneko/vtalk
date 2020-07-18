@@ -1,4 +1,4 @@
-package interfaces
+package usecase
 
 type ThreadInteractor struct {
 	threadRepository ThreadRepository
