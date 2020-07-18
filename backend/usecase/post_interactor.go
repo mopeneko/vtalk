@@ -1,4 +1,4 @@
-package interfaces
+package usecase
 
 import "github.com/mopeneko/vtalk/backend/domain"
 
