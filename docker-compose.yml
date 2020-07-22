@@ -19,6 +19,7 @@ services:
       - "1323:1323"
     environment:
       FIRESTORE_EMULATOR_HOST: firestore:8080
+      VTALK_PROJECT_ID: 114514
 
   firestore:
     build:

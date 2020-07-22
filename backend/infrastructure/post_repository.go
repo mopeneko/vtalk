@@ -2,6 +2,7 @@ package infrastructure
 
 import (
 	"github.com/mopeneko/vtalk/backend/domain"
+	"log"
 	"unicode/utf8"
 )
 
@@ -15,11 +16,21 @@ func NewPostRepository(handler FirestoreHandler) *PostRepository {
 
 func (repo *PostRepository) Create(threadID string, post *domain.Post) error {
 	post.Name = correctName(post.Name)
-	_, _, err := repo.conn.
-		Collection("threads").
-		Doc(threadID).
-		Collection("posts").
-		Add(ctx, post)
+	docRef := repo.conn.Collection("threads").Doc(threadID)
+
+	_, err := docRef.Get(ctx)
+	if err != nil {
+		log.Printf("Failed to create: Post %+v at Thread %s | %+v\n", post, threadID, err)
+		return err
+	}
+
+	_, _, err = docRef.Collection("posts").Add(ctx, post)
+	if err != nil {
+		log.Printf("Failed to create: Post %+v at Thread %s | %+v\n", post, threadID, err)
+		return err
+	}
+
+	log.Printf("Created: Post %+v at Thread %s\n", post, threadID)
 	return err
 }
 
